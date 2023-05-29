@@ -1,12 +1,6 @@
 package ej_2_paises;
 
-import ej_2_paises.Ciudad;
-import ej_2_paises.Continente;
-import ej_2_paises.Pais;
-import ej_2_paises.Provincia;
-
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 

@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d21de5a5-a7bb-40b3-8701-ad11105721da" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ej_1_figuras/Figura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ej_1_figuras/Figura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ej_1_figuras/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ej_1_figuras/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ej_2_paises/Pais.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ej_2_paises/Pais.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ej_2_paises/Provincia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ej_2_paises/Provincia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,40 @@
       <recent name="ej_1_figuras" />
     </key>
   </component>
+  <component name="RunManager" selected="Application.ej_2_paises.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ej_1_figuras.Main" />
+      <module name="ejercicios_uml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ej_1_figuras.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ej_2_paises.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ej_2_paises.Main" />
+      <module name="ejercicios_uml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ej_2_paises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ej_2_paises.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685309901531</updated>
       <workItem from="1685309902598" duration="6286000" />
-      <workItem from="1685319752816" duration="2312000" />
+      <workItem from="1685319752816" duration="3174000" />
     </task>
     <servers />
   </component>

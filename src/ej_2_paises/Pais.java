@@ -1,6 +1,8 @@
 package ej_2_paises;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class Pais {
 
@@ -11,13 +13,14 @@ public class Pais {
     private List<Pais> paisesLimitrofes;
 
     public Pais(String nombre, List<Provincia> provincias, List<Pais> paisesLimitrofes) throws Exception {
-        if(provincias.isEmpty()) {
+        if(provincias == null || provincias.isEmpty()) {
             throw new Exception("Un Pais debe contener por lo menos una provincia.");
         }
 
         this.nombre = nombre;
         this.provincias = provincias;
-        this.paisesLimitrofes = paisesLimitrofes;
+
+        this.paisesLimitrofes = Optional.ofNullable(paisesLimitrofes).orElse(new ArrayList<>());
     }
 
     public String getNombre() {

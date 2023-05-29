@@ -1,6 +1,8 @@
 package ej_2_paises;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class Provincia {
 
@@ -15,15 +17,16 @@ public class Provincia {
     private List<Pais> paisesLimitrofes;
 
     public Provincia(String nombre, boolean isCapital, List<Ciudad> ciudades, List<Provincia> provinciasLimitrofes, List<Pais> paisesLimitrofes) throws Exception {
-        if(ciudades.isEmpty()) {
+        if(ciudades == null || ciudades.isEmpty()) {
             throw new Exception("Una Provincia debe tener por lo menos una ciudad.");
         }
 
         this.nombre = nombre;
         this.isCapital = isCapital;
         this.ciudades = ciudades;
-        this.provinciasLimitrofes = provinciasLimitrofes;
-        this.paisesLimitrofes = paisesLimitrofes;
+
+        this.provinciasLimitrofes = Optional.ofNullable(provinciasLimitrofes).orElse(new ArrayList<>());
+        this.paisesLimitrofes = Optional.ofNullable(paisesLimitrofes).orElse(new ArrayList<>());
     }
 
     public String getNombre() {
